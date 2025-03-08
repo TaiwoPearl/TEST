@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 20px;
+    background-color:white; 
+    
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+    
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.highlight {
+    color: #17175f; /* Deep blue color for 'Creative' */
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+       
+    
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width:100%;
+    justify-content: space-between;
+    
+}
+.section:nth-child(even){
+    flex-direction:row;
+}
+
+.section img {  
+    width:50%;
+    border-radius: 5px;
+    
+}
+
+.text {
+    margin-top: 10px;
+    width: 50%;
+    text-align: left;
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: left;
+    width: 60%;
+    font-family: 'poppins', sans-serif;   
+}
+
+
+    
